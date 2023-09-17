@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngexample.Example1"/>
+      <class name="testngexample.Example2"/>
+      <class name="testngexample.TestngExample1"/>
+      <class name="testngexample.Example3"/>
+      <class name="testngexample.Example4"/>
+      <class name="testngexample.Example5"/>
+      <class name="testngexample.Example6"/>
+      <class name="testngexample.Example7"/>
+      <class name="testngexample.Example8"/>
+      <class name="testngexample.Validation"/>
+      <class name="testngexample.ConverToTestngEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

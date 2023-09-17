@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryFailedTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RetryMultiple(failed)">
+    <classes>
+      <class name="runtimeretryfailedtc.Test002">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- runtimeretryfailedtc.Test002 -->
+      <class name="runtimeretryfailedtc.Test001">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- runtimeretryfailedtc.Test001 -->
+    </classes>
+  </test> <!-- RetryMultiple(failed) -->
+</suite> <!-- Failed suite [RetryFailedTests] -->
